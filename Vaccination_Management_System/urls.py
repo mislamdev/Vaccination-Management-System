@@ -24,6 +24,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("api.urls")),
     path("api/auth/", include("users.urls")),
+    path("api/payments/", include("payments.urls")),  # Added payments routes
     # Swagger UI endpoints
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
     path('api/docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
