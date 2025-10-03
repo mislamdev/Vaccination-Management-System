@@ -22,7 +22,7 @@ referencing==0.36.2
 requests==2.32.5
 rpds-py==0.27.0
 sqlparse==0.5.3
-sslcommerz-python==0.0.7
+# sslcommerz-python==0.0.7
 typing_extensions==4.15.0
 uritemplate==4.2.0
 urllib3==2.5.0
