@@ -21,3 +21,4 @@ requests==2.31.0
 typing_extensions==4.15.0
 uritemplate==4.2.0
 whitenoise==6.9.0
+corsheaders==4.9.0
